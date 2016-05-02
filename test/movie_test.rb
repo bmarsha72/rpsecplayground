@@ -20,6 +20,4 @@ describe Movie do
       @tg = Movie.new.to_hash
       @tg ["Year"].should == "1986"
     end
-
-  
 end
